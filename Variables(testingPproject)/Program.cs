@@ -2,7 +2,7 @@
 
 
 
-namespace OperatorsExpressionsStatements        
+namespace ForIteration
 {
     class Program
     {
@@ -93,65 +93,92 @@ namespace OperatorsExpressionsStatements
 
 
             // Variable declaration
-            int x, y, a, b;
+            //int x, y, a, b;
 
             // Assignment operator
-            x = 3;
-            y = 2;
-            a = 1;
-            b = 0;
+            //x = 3;
+            //y = 2;
+            //a = 1;
+            //b = 0;
 
             // There are many mathematical operators ....
 
             // Addition operator
-            x = 3 + 4;
+            //x = 3 + 4;
 
             // Subtraction operator
-            x = 10 * 5;
+            //x = 10 * 5;
 
             // Division operator
-            x = 10 / 5;
+            //x = 10 / 5;
 
             // Order of operations using parenthesis
-            x = (x + y) * (a - b);
+            //x = (x + y) * (a - b);
 
             // There are many operators used to evaluete values ...
 
             // Equality operator
-            if (x == y)
-            {
+            //if (x == y)
+            //{
 
-            }
+            //}
 
             // Greater than operator
-            if (x > y)
-            {
+            //if (x > y)
+            //{
 
-            }
+            //}
 
             // Greater or equal to operator
-            if (x >= y)
-            {
+            //if (x >= y)
+            //{
 
-            }
+            //}
 
             // Conditional AND operator ...
-            if ((x > y) && (a > b))
-            {
+            //if ((x > y) && (a > b))
+            //{
 
-            }
+            //}
 
             // Conditional OR operator ...
-            if ((x > y) || (a > b))
-            {
+            //if ((x > y) || (a > b))
+            //{
 
-            }
+            //}
 
             //In-line conditional operator:
-            string message = (x == 1) ? "Car" : "Boat";
+            //string message = (x == 1) ? "Car" : "Boat";
 
             // Member access and Method invocation
-            Console.Write("Hi");
+            //Console.Write("Hi");
+
+
+
+            // Iteration
+            for (int i = 0; i < 19; i++)
+            {
+                //Console.WriteLine(i);
+                if (i == 7)
+                {
+                    Console.WriteLine("Found seven !");
+                    break;
+                }
+            }
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
