@@ -2,7 +2,7 @@
 
 
 
-namespace Variables
+namespace OperatorsExpressionsStatements        
 {
     class Program
     {
@@ -70,11 +70,11 @@ namespace Variables
 
 
             // Another style of decision statement (condition operator)
-            Console.Write("Alex's Big Giweaway");
-            Console.Write("Choose a door: 1, 2 or 3: ");
-            string userValue = Console.ReadLine();
+            //Console.Write("Alex's Big Giweaway");
+            //Console.Write("Choose a door: 1, 2 or 3: ");
+            //string userValue = Console.ReadLine();
 
-            string message = (userValue == "1") ? "boat" : "strand of lint";
+            //string message = (userValue == "1") ? "boat" : "strand of lint";
 
             //Console.Write("You won a ");
             //Console.Write(message);
@@ -84,14 +84,74 @@ namespace Variables
             //Console.WriteLine("You won a {0}.", message);
 
             // Replace two values or more
-            Console.WriteLine("You entered: {0}, " +
-                "therefore you won a {1}.", userValue, message);
+            //Console.WriteLine("You entered: {0}, " +
+            //    "therefore you won a {1}.", userValue, message);
 
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
 
+            // Variable declaration
+            int x, y, a, b;
+
+            // Assignment operator
+            x = 3;
+            y = 2;
+            a = 1;
+            b = 0;
+
+            // There are many mathematical operators ....
+
+            // Addition operator
+            x = 3 + 4;
+
+            // Subtraction operator
+            x = 10 * 5;
+
+            // Division operator
+            x = 10 / 5;
+
+            // Order of operations using parenthesis
+            x = (x + y) * (a - b);
+
+            // There are many operators used to evaluete values ...
+
+            // Equality operator
+            if (x == y)
+            {
+
+            }
+
+            // Greater than operator
+            if (x > y)
+            {
+
+            }
+
+            // Greater or equal to operator
+            if (x >= y)
+            {
+
+            }
+
+            // Conditional AND operator ...
+            if ((x > y) && (a > b))
+            {
+
+            }
+
+            // Conditional OR operator ...
+            if ((x > y) || (a > b))
+            {
+
+            }
+
+            //In-line conditional operator:
+            string message = (x == 1) ? "Car" : "Boat";
+
+            // Member access and Method invocation
+            Console.Write("Hi");
 
         }
     }
