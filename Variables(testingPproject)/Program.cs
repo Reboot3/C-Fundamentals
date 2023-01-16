@@ -2,7 +2,7 @@
 
 
 
-namespace AnderstandingArrays
+namespace SimpleMethod
 {
     class Program
     {
@@ -213,7 +213,7 @@ namespace AnderstandingArrays
 
             //int[] numbers = new int[] { 4, 8, 15, 16, 23, 42 };
 
-            string[] names = new string[] { "Eddie", "Alex", "Michael" };
+            //string[] names = new string[] { "Eddie", "Alex", "Michael" };
             /*
             for (int i = 0; i < names.Length; i++)
             {
@@ -229,7 +229,7 @@ namespace AnderstandingArrays
             }
             Console.ReadLine();
             */
-
+            /*
             string zig = "You can get what you want out of life if you help" +
                 " enough other people get what they want.";
 
@@ -241,13 +241,40 @@ namespace AnderstandingArrays
                 Console.Write(zigChar);
             }
             Console.ReadLine();
+            */
 
 
 
+            // Simple Methods
 
-
+        
+            HelloWorld();
+            Console.ReadLine();
 
         }
+
+        private static void HelloWorld()
+        {
+            Console.WriteLine("Hello World");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 
